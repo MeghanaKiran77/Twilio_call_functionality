@@ -73,7 +73,7 @@ app = Flask(__name__)
 # Make an outbound call
 def make_call():
     call = client.calls.create(
-        to='+919949811433',  # Replace with the recipient's phone number
+        to='+919182591919',  # Replace with the recipient's phone number
         from_=+12677281042,  # Your Twilio phone number from .env
         url=' https://ce13-182-71-109-122.ngrok-free.app/incoming-call',  # Your ngrok URL
         status_callback=' https://ce13-182-71-109-122.ngrok-free.app/status-callback',
